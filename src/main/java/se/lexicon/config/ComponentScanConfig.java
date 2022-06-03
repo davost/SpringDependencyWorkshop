@@ -11,9 +11,6 @@ import se.lexicon.data_access.StudentDAOListImpl;
 
 public class ComponentScanConfig {
 
-    @Bean
-    public StudentDAO studentDao(){
-        return new StudentDAOListImpl();
-    }
+
 
 }
