@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674d76b3-e7ca-4ca9-b5e6-e8c5522820fb" name="Changes" comment="Committ with errors">
+    <list default="true" id="674d76b3-e7ca-4ca9-b5e6-e8c5522820fb" name="Changes" comment="Committ with no errrors. :)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/service/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/service/StudentManagementConsoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/util/ScannerInputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/util/UserInputService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAOListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAOListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ComponentScanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ComponentScanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/se/lexicon/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,24 +35,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A1U5X3ItWZt4KoEsqEetyUiWmh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "64cabb76dcaef540c7e75db34936438f"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;64cabb76dcaef540c7e75db34936438f&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="se.lexicon" />
@@ -86,7 +89,9 @@
       <option name="presentableId" value="Default" />
       <updated>1654176404887</updated>
       <workItem from="1654176408314" duration="5083000" />
-      <workItem from="1654243826565" duration="3007000" />
+      <workItem from="1654243826565" duration="3191000" />
+      <workItem from="1654587950913" duration="2166000" />
+      <workItem from="1654600927830" duration="3952000" />
     </task>
     <task id="LOCAL−00001" summary="Committ with errors">
       <created>1654180907982</created>
@@ -94,7 +99,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1654180907982</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Committ with no errrors. :)">
+      <created>1654247004105</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1654247004105</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,17 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Committ with errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committ with errors" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAOListImpl.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Committ with no errrors. :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committ with no errrors. :)" />
   </component>
 </project>
